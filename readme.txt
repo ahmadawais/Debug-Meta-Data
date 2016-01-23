@@ -35,7 +35,7 @@ No, not really.
 
 == Screenshots ==
 
-1. https://i.imgur.com/vnZsCMC.png
+1. An example of the custom debug meta box with all the meta data that will display for all the post types.
 
 == Upgrade Notice ==
 
