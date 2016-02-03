@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Debug Meta Data
- * Description: Dumps all the meta data in a debug metabox for all post types.
+ * Description: Dumps all the meta data in a debug metabox for all the post types.
  * Plugin URI: http://ahmadawais.com
  * Author: mrahmadawais
  * Author URI: http://ahmadawais.com
- * Version: 1.0.1
+ * Version: 1.0.1.1
  * License: GPL2
  * Text Domain: DMD
  *
