@@ -4,7 +4,7 @@ Donate link: http://AhmadAwais.com/contact/
 Tags: debug, meta data, debug meta, debug metabox, meta data custom post types, print meta data
 Requires at least: 4.0.0
 Tested up to: 4.5
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPL v2.0
 
 Creates a meta-box with meta-data information of a post for all post types. Information with meta key, meta value and its var_dump
