@@ -24,7 +24,7 @@ An example of the custom debug meta box with all the meta data that will display
 - Tags: debug, meta data, debug meta, debug metabox, meta data custom post types, print meta data 
 
 ##Changelog
-###1.0.1
+###1.0.1 & 1.0.2
 - Plugin header info corrected by removing trunk's copy from the tags folder.
 
 ###1.0.0

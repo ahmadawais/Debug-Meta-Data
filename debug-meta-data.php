@@ -5,7 +5,7 @@
  * Plugin URI: http://ahmadawais.com
  * Author: mrahmadawais
  * Author URI: http://ahmadawais.com
- * Version: 1.0.1.1
+ * Version: 1.0.2
  * License: GPL2
  * Text Domain: DMD
  *
