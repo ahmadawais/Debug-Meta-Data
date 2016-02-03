@@ -5,13 +5,14 @@
  * Plugin URI: http://ahmadawais.com
  * Author: mrahmadawais
  * Author URI: http://ahmadawais.com
- * Version: 1.0.0
+ * Version: 1.0.1
  * License: GPL2
- * Text Domain: DMB
+ * Text Domain: DMD
+ *
+ * @package DMD
  */
 
 /*
-
     Copyright (C) Year  Ahmad Awais (http://ahmadawais.com/)
 
     This program is free software; you can redistribute it and/or modify
@@ -34,9 +35,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 
+/**
+ * Add Meta box.
+ *
+ * @since 1.0.1
+ */
 function debug_meta_data_add_meta_box() {
+
 	$post_types = get_post_types();
-	foreach( $post_types as $post_type) {
+	foreach ( $post_types as $post_type ) {
+
 		add_meta_box(
 			'debug_meta_data-debug-meta-data',
 			__( 'Debug Meta Data', 'debug_meta_data' ),
@@ -45,22 +53,30 @@ function debug_meta_data_add_meta_box() {
 			'normal',
 			'low'
 		);
+
 	}
 }
 
-function debug_meta_data_html( $post) {
+/**
+ * Meta box Output
+ *
+ * @since 1.0.1
+ */
+function debug_meta_data_html( $post ) {
 
-			echo "<h3>All Meta Data</h3>";
+			echo '<h3>All Meta Data</h3>';
 
 			// Get all the data.
-			$getPostCustom=get_post_custom();
-			    foreach( $getPostCustom as $name=>$value ) {
-			        echo "<strong>".$name."</strong>"."  =>  ";
-			        foreach( $value as $nameAr=>$valueAr ) {
-			                echo $nameAr . "  =>  " . $valueAr;
-			                echo var_dump( $valueAr );
+			$get_post_custom_val = get_post_custom();
+			    foreach ( $get_post_custom_val as $name => $value ) {
+
+			        echo '<strong>' . $name . '</strong> =>  ';
+			        foreach ( $value as $name_array => $value_array ) {
+			                echo $name_array . '  =>  ' . $value_array;
+			                echo var_dump( $value_array );
 			        }
-			        echo "<br />";
+			        echo '<br />';
+
 			    }
 }
 
