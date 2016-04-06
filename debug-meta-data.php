@@ -64,20 +64,22 @@ function debug_meta_data_add_meta_box() {
  */
 function debug_meta_data_html( $post ) {
 
-			echo '<h3>All Meta Data</h3>';
+	$tpost = $post;
 
-			// Get all the data.
-			$get_post_custom_val = get_post_custom();
-		    foreach ( $get_post_custom_val as $name => $value ) {
+	echo '<h3>All Meta Data</h3>';
 
-		        echo '<strong>' . $name . '</strong> =>  ';
-		        foreach ( $value as $name_array => $value_array ) {
-		                echo $name_array . '  =>  ' . $value_array;
-		                echo var_dump( $value_array );
-		        }
-		        echo '<br />';
+	// Get all the data.
+	$get_post_custom_val = get_post_custom( $post->ID );
+	foreach ( $get_post_custom_val as $name => $value ) {
 
-		    }
+	    echo '<strong>' . $name . '</strong> =>  ';
+	    foreach ( $value as $name_array => $value_array ) {
+	            echo $name_array . '  =>  ' . $value_array;
+	            echo var_dump( $value_array );
+	    }
+	    echo '<br />';
+
+	}
 }
 
 // Let's finally add it.
