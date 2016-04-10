@@ -20,12 +20,16 @@ An example of the custom debug meta box with all the meta data that will display
 - Donate link: http://AhmadAwais.com/contact/ 
 - Requires at least: 4.0.0 
 - Tested up to: 4.5 
-- Stable tag: 1.0.2
+- Stable tag: 1.0.
 - Tags: debug, meta data, debug meta, debug metabox, meta data custom post types, print meta data 
 
 ##Changelog
-###1.0.1 & 1.0.2
+
+= 1.0.3 =
+- FIXED: Minor bug to make sure the correct post type gets through the `get_post_custom()`.
+
+= 1.0.1 & 1.0.2 =
 - Plugin header info corrected by removing trunk's copy from the tags folder.
 
-###1.0.0
+= 1.0.0 =
 - First Commit.

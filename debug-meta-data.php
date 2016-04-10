@@ -64,8 +64,6 @@ function debug_meta_data_add_meta_box() {
  */
 function debug_meta_data_html( $post ) {
 
-	$tpost = $post;
-
 	echo '<h3>All Meta Data</h3>';
 
 	// Get all the data.
