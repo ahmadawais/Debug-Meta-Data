@@ -7,6 +7,8 @@
 
 [Debug meta data](https://wordpress.org/plugins/debug-meta-data/) creates a meta-box with meta-data information of a post for all post types. Information with meta key, meta value and its var_dump.
 
+![](https://i.imgur.com/5UUHiyk.jpg)
+
 ##Installation
 
 Just install and activate the plugin and you'll have the meta box for all post types (even the custom post types).
