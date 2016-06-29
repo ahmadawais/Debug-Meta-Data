@@ -19,7 +19,9 @@ Just install and activate the plugin and you'll have the meta box for all post t
 
 ## Screenshots
 An example of the custom debug meta box with all the meta data that will display for all the post types.
+
 ![img](https://i.imgur.com/qwtHy7V.png)
+
 ![img](https://i.imgur.com/vnZsCMC.png)
 
 
