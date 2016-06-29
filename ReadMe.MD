@@ -24,15 +24,6 @@ An example of the custom debug meta box with all the meta data that will display
 
 ![img](https://i.imgur.com/vnZsCMC.png)
 
-
-## Plugin Information
-- Contributors: mrahmadawais, WPTie 
-- Donate link: http://AhmadAwais.com/contact/ 
-- Requires at least: 4.0.0 
-- Tested up to: 4.5 
-- Stable tag: 1.0.
-- Tags: debug, meta data, debug meta, debug metabox, meta data custom post types, print meta data 
-
 ## Changelog
 
 ### Version 1.0.3
