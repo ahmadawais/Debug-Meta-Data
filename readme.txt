@@ -1,9 +1,9 @@
 === Debug Meta Data ===
-Contributors: mrahmadawais, WPTie
+Contributors: mrahmadawais, maedahbatool, WPTie
 Donate link: http://AhmadAwais.com/contact/
 Tags: debug, meta data, debug meta, debug metabox, meta data custom post types, print meta data
 Requires at least: 4.0.0
-Tested up to: 4.5
+Tested up to: 5.0
 Stable tag: 1.0.3
 License: GPL v2.0
 

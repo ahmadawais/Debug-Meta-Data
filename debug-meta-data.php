@@ -2,9 +2,9 @@
 /**
  * Plugin Name: Debug Meta Data
  * Description: Dumps all the meta data in a debug metabox for all the post types.
- * Plugin URI: http://ahmadawais.com
- * Author: mrahmadawais
- * Author URI: http://ahmadawais.com
+ * Plugin URI: https://AhmadAwais.com/
+ * Author: Ahmad Awais & Maedah Batool
+ * Author URI: https://AhmadAwais.com/
  * Version: 1.0.3
  * License: GPL2
  * Text Domain: DMD
