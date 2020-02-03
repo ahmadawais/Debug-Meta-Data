@@ -2,10 +2,10 @@
 /**
  * Plugin Name: Debug Meta Data
  * Description: Dumps all the meta data in a debug metabox for all the post types.
- * Plugin URI: https://AhmadAwais.com/
- * Author: Ahmad Awais & Maedah Batool
- * Author URI: https://AhmadAwais.com/
- * Version: 1.0.3
+ * Plugin URI: https://github.com/AhmadAwais/debug-meta-data
+ * Author: Awais & Maedah
+ * Author URI: https://twitter.com/MrAhmadAwais/
+ * Version: 1.0.4
  * License: GPL2
  * Text Domain: DMD
  *
@@ -13,20 +13,20 @@
  */
 
 /*
-    Copyright (C) Year  Ahmad Awais (http://ahmadawais.com/)
+	Copyright (C) Year  Ahmad Awais (http://ahmadawais.com/)
 
-    This program is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License, version 2, as
-    published by the Free Software Foundation.
+	This program is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License, version 2, as
+	published by the Free Software Foundation.
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with this program; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 // Exit if accessed directly.
@@ -70,12 +70,12 @@ function debug_meta_data_html( $post ) {
 	$get_post_custom_val = get_post_custom( $post->ID );
 	foreach ( $get_post_custom_val as $name => $value ) {
 
-	    echo '<strong>' . $name . '</strong> =>  ';
-	    foreach ( $value as $name_array => $value_array ) {
-	            echo $name_array . '  =>  ' . $value_array;
-	            echo var_dump( $value_array );
-	    }
-	    echo '<br />';
+		echo '<strong>' . $name . '</strong> =>  ';
+		foreach ( $value as $name_array => $value_array ) {
+				echo $name_array . '  =>  ' . $value_array;
+				echo var_dump( $value_array );
+		}
+		echo '<br />';
 
 	}
 }
@@ -93,20 +93,20 @@ add_action( 'add_meta_boxes', 'debug_meta_data_add_meta_box' );
  */
 function dmd_dump_user_meta( $user ) {
 
-	echo "<hr/><h2>User Meta Data</h2>";
+	echo '<hr/><h2>User Meta Data</h2>';
 
 	// Current User's meta data
 	$dmd_user_meta = get_user_meta( get_current_user_id() );
 
 	// Dump the data.
 	foreach ( $dmd_user_meta as $name => $value ) {
-	    echo "<strong>".$name."</strong>"."  =>  ";
+		echo '<strong>' . $name . '</strong>' . '  =>  ';
 
-	    foreach ( $value as $nameAr=>$valueAr ) {
-	            echo $nameAr . "  =>  " . $valueAr;
-	            echo var_dump( $valueAr );
-	    }
-	    echo "<br />";
+		foreach ( $value as $nameAr => $valueAr ) {
+				echo $nameAr . '  =>  ' . $valueAr;
+				echo var_dump( $valueAr );
+		}
+		echo '<br />';
 	}
 }
 

@@ -3,8 +3,8 @@ Contributors: mrahmadawais, maedahbatool, WPTie
 Donate link: http://AhmadAwais.com/contact/
 Tags: debug, meta data, debug meta, debug metabox, meta data custom post types, print meta data
 Requires at least: 4.0.0
-Tested up to: 5.0
-Stable tag: 1.0.3
+Tested up to: 5.3
+Stable tag: 1.0.4
 License: GPL v2.0
 
 Creates a meta-box with meta-data information of a post for all post types. Information with meta key, meta value and its var_dump
@@ -43,11 +43,28 @@ None.
 
 == Changelog ==
 
-= 1.0.3 =
-- FIXED: Minor bug to make sure the correct post type gets through the `get_post_custom()`.
 
-= 1.0.1 & 1.0.2 =
-- Plugin header info corrected by removing trunk's copy from the tags folder.
+[![📝](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/log.png)](changelog.md)
 
-= 1.0.0 =
-- First Commit.
+## Changelog
+
+[❯ Read the changelog here →](https://github.com/ahmadawais/debug-meta-data/blob/master/changelog.md)
+
+<br>
+
+<small>**KEY**: `📦 NEW`, `👌 IMPROVE`, `🐛 FIX`, `📖 DOC`, `🚀 RELEASE`, and `✅ TEST`
+
+> _I use [Emoji-log](https://github.com/ahmadawais/Emoji-Log), you should try it and simplify your git commits._
+
+</small>
+
+<br>
+
+[![📃](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/license.png)](./../../)
+
+## License & Conduct
+
+- MIT © [Ahmad Awais](https://twitter.com/MrAhmadAwais/)
+- [Code of Conduct](https://github.com/ahmadawais/debug-meta-data/blob/master/code-of-conduct.md)
+
+<br>
