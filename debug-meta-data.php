@@ -5,7 +5,7 @@
  * Plugin URI: https://github.com/AhmadAwais/debug-meta-data
  * Author: Awais & Maedah
  * Author URI: https://twitter.com/MrAhmadAwais/
- * Version: 1.0.5
+ * Version: 1.1.0
  * License: GPL2
  * Text Domain: DMD
  *
