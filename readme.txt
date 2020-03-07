@@ -3,7 +3,7 @@ Contributors: mrahmadawais, maedahbatool, WPTie
 Donate link: http://AhmadAwais.com/contact/
 Tags: debug, meta data, debug meta, debug metabox, meta data custom post types, print meta data
 Requires at least: 4.0.0
-Tested up to: 5.3
+Tested up to: 5.4
 Stable tag: 1.0.4
 License: GPL v2.0
 
