@@ -3,7 +3,7 @@
  * Plugin Name: Debug Meta Data
  * Description: Dumps all the meta data in a debug metabox for all the post types.
  * Plugin URI: https://github.com/AhmadAwais/debug-meta-data
- * Author: Awais & Maedah
+ * Author: TheDevCouple (Awais & Maedah)
  * Author URI: https://twitter.com/MrAhmadAwais/
  * Version: 1.1.0
  * License: GPL2
