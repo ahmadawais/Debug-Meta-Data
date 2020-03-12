@@ -13,12 +13,12 @@ Creates a meta-box with meta-data information of a post for all post types. Info
 
 Creates a meta-box with meta-data information of a post for all post types. Information with meta key, meta value and its var_dump
 
-Just install and activate the plugin and you'll have the meta box for all post types (even the custom post types).
+Install and activate the plugin and you'll have the meta box for all post types (even the custom post types).
 
 
 == Installation ==
 
-Just install and activate the plugin and you'll have the meta box for all post types (even the custom post types).
+Install and activate the plugin and you'll have the meta box for all post types (even the custom post types).
 
 Details:
 
