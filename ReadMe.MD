@@ -16,7 +16,7 @@
 
 ## Installation
 
-Just install and activate the plugin and you'll have the meta box for all post types (even the custom post types).
+Just install and activate the plugin, and you'll have the meta box for all post types (even the custom post types).
 
 - Upload `debug-meta-data.zip` to the `/wp-content/plugins/` directory
 - Activate the plugin through the 'Plugins' menu in WordPress
